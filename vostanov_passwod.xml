@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#85A8FB"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bubble_5"
+        android:layout_marginLeft="100dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bubble_4"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="-210dp"/>
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:text="Восстановление пароля"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="60dp"/>
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:text="Как бы хотели вы восстановить свой пароль?"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="5dp"/>
+    <CheckBox
+        android:id="@+id/checkbox_sms"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:text="SMS"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="40dp"
+        android:background="#E5EBFC"/>
+    <CheckBox
+        android:id="@+id/checkbox_email"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:text="Email"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFEBEB"/>
+    <Button
+        android:id="@+id/dalee2"
+        android:layout_width="335dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="100dp"
+        android:text="Далее"
+        android:textSize="18dp"
+        android:backgroundTint="#004CFF"/>
+    <Button
+        android:id="@+id/otmena3"
+        android:layout_width="335dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="10dp"
+        android:text="Отмена"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:backgroundTint="#85A8FB"/>
+
+</LinearLayout>
